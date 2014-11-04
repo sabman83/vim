@@ -8,17 +8,27 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'scrooloose/nerdcommenter.git'
-
-Plugin 'kien/ctrlp.vim'
-
-Plugin 'mileszs/ack.vim'
 
 " Functionality
 Plugin 'airblade/vim-gitgutter'
+Plugin 'scrooloose/nerdcommenter.git'
+Plugin 'kien/ctrlp.vim'
+Plugin 'mileszs/ack.vim'
 Plugin 'godlygeek/tabular'
-Plugin 'jgdavey/vim-blockle' " \b to toggle ruby blocks
 Plugin 'kana/vim-textobj-user'
+Plugin 'Julian/vim-textobj-brace'
+Plugin 'glts/vim-textobj-comment'
+Plugin 'kana/vim-textobj-datetime'
+Plugin 'kana/vim-textobj-entire'
+Plugin 'whatyouhide/vim-textobj-erb'
+Plugin 'kana/vim-textobj-fold'
+Plugin 'kana/vim-textobj-function'
+Plugin 'glts/vim-textobj-indblock'
+Plugin 'kana/vim-textobj-indent'
+Plugin 'kana/vim-textobj-line'
+Plugin 'beloglazov/vim-textobj-quotes'
+Plugin 'jceb/vim-textobj-uri'
+Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'nelstrom/vim-markdown-folding'
 Plugin 'panozzaj/vim-autocorrect'
@@ -60,6 +70,7 @@ Plugin 'vim-scripts/jQuery'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+runtime macros/matchit.vim
 
 "" Set file paths
 set tags=./tags,tags,/Users/skolman/git/tags;
@@ -86,6 +97,7 @@ set laststatus=2
 set relativenumber
 set undofile
 set pastetoggle=<F2>            " set paste mode by hitting F2. Useful for pasting text from clipboard
+let g:Powerline_symbols = 'fancy'
 
 "These two lines fix Vim’s horribly broken default regex “handling” by
 ""automatically inserting a \v before any string you search for. This turns off
