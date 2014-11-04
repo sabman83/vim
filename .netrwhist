@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/skolman/git/ui/fuel/app/views/campaigns'
+let g:netrw_dirhist_2='/Users/skolman/.gem/specs'
+let g:netrw_dirhist_3='/Users/skolman/Downloads/koans'
+let g:netrw_dirhist_4='/Users/skolman/Downloads'
+let g:netrw_dirhist_5='/Users/skolman'
