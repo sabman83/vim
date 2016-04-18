@@ -12,6 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'mileszs/ack.vim'           "install ack and ag for this plugin to work
 Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'wincent/command-t'            " install rvm , to install ruby dev
                                       " refer this for error when running rvm install 1.9.3-dev http://stackoverflow.com/questions/29442956/error-running-requirements-debian-update-system-ruby-1-9-3-p551
 Plugin 'sjl/gundo.vim'                " provides easy traversable undo tree structure
